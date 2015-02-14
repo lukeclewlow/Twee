@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	SPEECH TEST
+  </head>
+  <body>
+	<button id="button-speak-ss" class="button-demo">Speak</button>
+
+
+
+  <script>
+
+	var worte = new SpeechSynthesisUtterance("Hello, nice to see you.");
+	worte.lang = "en-UK";
+	window.speechSynthesis.speak(worte);
+
+
+  </script>
+
+
+  </body>
+</html>
