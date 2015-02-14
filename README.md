@@ -24,9 +24,9 @@ MVP Requirements
 Enhancements
 ------------
 If we had more time to work on this project, the features we would like to have added would be:
-- [] The ability for several tweets to be spoken simultaneously
-- [] CSS Styling and Design - A tree with birds seemingly saying the tweets without any text visible on the page
-- [] More structured filtering of data
+- [ ] The ability for several tweets to be spoken simultaneously
+- [ ] CSS Styling and Design - A tree with birds seemingly saying the tweets without any text visible on the page
+- [ ] More structured filtering of data
 
 Contributors
 ----
