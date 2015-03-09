@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#The Tweet of Babel
+
+>>>>>>> 48e3272d65ee74bc40f29b9fbb3d2a3d0fed05ff
 We wanted to build a web page that would get relevant top trending tweets from London and speak them out loud! Full credit to Danielle for a wonderful idea that I was very happy to be involved with!
 
 Objectives
