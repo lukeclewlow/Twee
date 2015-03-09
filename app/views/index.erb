@@ -1,21 +1,36 @@
-<h1>Tweets</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<h1>Tweets:</h1>
 
-<ul class="bullets">
-<% @tweets.each do |tweet| %>
-<li class="tweet">  <%= tweet.text %> </li>
+<ul>
+  <% @trends.each do |trend| %>
+  <li><%= trend %></li>
+  <% end %>
+</ul>
+
+<ul>
+<% @tweets.each do |trend| %>
+  <% trend.each do |tweet|  %>
+  <li class="tweet"><%= tweet %> </li>
+  <%end%>
 <% end %>
 </ul>
 
-  <script>
-
-  var tweets = document.getElementsByClassName("tweet");
+<script>
+ var tweets = document.getElementsByClassName("tweet");
   var worte;
   var tweet;
   for(var i in tweets){
-  	tweet = tweets[i].innerHTML.replace(/http:\/\/[^\/]+\/[^\s]+/,'');
-  	worte = new SpeechSynthesisUtterance(tweet);
-  	worte.lang = "en-UK";
-	  window.speechSynthesis.speak(worte);
+    tweet = tweets[i].innerHTML.replace(/http:\/\/[^\/]+\/[^\s]+/,'');
+    worte = new SpeechSynthesisUtterance(tweet);
+    worte.lang = "en-UK";
+    window.speechSynthesis.speak(worte);
   }
-
   </script>
+
+</body>
+</html>
